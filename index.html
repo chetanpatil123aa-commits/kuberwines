@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KUBER By Lanjekar Wines</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #0f0f0f; color: white; }
+
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+      url('https://images.unsplash.com/photo-1510626176961-4b37d94c3f3b') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 { font-size: 48px; color: gold; }
+    header p { margin-top: 15px; font-size: 20px; }
+
+    .btn {
+      margin-top: 25px;
+      padding: 12px 30px;
+      background: gold;
+      color: black;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: 0.3s;
+      display: inline-block;
+    }
+
+    .btn:hover { background: #e6c200; }
+
+    section { padding: 60px 20px; text-align: center; }
+    h2 { color: gold; margin-bottom: 30px; font-size: 36px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1c1c1c;
+      padding: 25px;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover { transform: scale(1.05); }
+
+    footer {
+      background: black;
+      padding: 20px;
+      text-align: center;
+      color: gray;
+      border-top: 1px solid #333;
+    }
+
+    .contact p { margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>KUBER By Lanjekar Wines</h1>
+  <p>Premium Wines. Royal Experience.</p>
+  <a href="tel:9552820606" class="btn">Call Now</a>
+</header>
+
+<section>
+  <h2>Our Collection</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Red Wine</h3>
+      <p>Finest quality red wine collection available in store.</p>
+    </div>
+    <div class="card">
+      <h3>White Wine</h3>
+      <p>Premium white wine selection for every occasion.</p>
+    </div>
+    <div class="card">
+      <h3>Imported Wines</h3>
+      <p>Exclusive imported brands and luxury bottles.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>About Us</h2>
+  <p>
+    KUBER By Lanjekar Wines is located at Cunchelim, Siolim Road, Bardez, Mapusa, North Goa.
+    We provide premium quality wines with trusted service and a royal experience for our customers.
+  </p>
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Phone:</strong> 9552820606</p>
+  <p><strong>Location:</strong> Cunchelim, Siolim Road, Bardez, Mapusa, North Goa</p>
+  <a href="https://wa.me/919552820606" class="btn">WhatsApp Us</a>
+</section>
+
+<footer>
+  © 2026 KUBER By Lanjekar Wines. All Rights Reserved.
+</footer>
+
+</body>
+</html>
